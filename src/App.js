@@ -3,39 +3,54 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-          <ul class="flex-container row">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-          </ul>
-
-          <ul class="flex-container row-reverse">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-          </ul>
-
-          <ul class="flex-container column">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-          </ul>
-
-          <ul class="flex-container column-reverse">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-          </ul>
-        </div> 
+    <div class="app">
+        <div class="flex-start">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+            <div>4</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+         <div class="flex-left">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+            <div>4</div>
+            <div>5</div>
+            
+         </div>
+        <div class="flex-right">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+         </div>
+          <div class="flex-end">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+            <div>4</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            
+          </div>
+            
+        
+    </div> 
   );
 }
 
